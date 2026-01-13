@@ -1,22 +1,18 @@
+// app/page.tsx
 import Hero from "./components/Hero";
 import BrandRail from "./components/BrandRail";
+import Lineup from "./components/Lineup";
 import Occasions from "./components/Occasions";
 import Philosophy from "./components/Philosophy";
-import Lineup from "./components/Lineup";
 
-export default function Home() {
+export default function Page() {
   return (
- <main>
-  <Hero />
-  <BrandRail />
-  <Lineup />
-
-  <section id="occasions">
-    <Occasions />
-  </section>
-
-  <section id="philosophy">
-    <Philosophy />
-  </section>
-</main>
-
+    <main>
+      <Hero />
+      <BrandRail />
+      <Lineup />
+      <Occasions />
+      <Philosophy />
+    </main>
+  );
+}
