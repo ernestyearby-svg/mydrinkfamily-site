@@ -1,37 +1,7 @@
-@import "tailwindcss";
-
-html,
-body {
+html, body {
 margin: 0;
 padding: 0;
-width: 100%;
-min-height: 100%;
 background: #000;
-}
-
-* {
-box-sizing: border-box;
-}
-
-body {
-overflow-x: hidden;
-}
-
-.hero-full {
-width: 100%;
-min-height: 100vh;
-background-image: url("/hero-mymosa.png");
-background-size: cover;
-background-position: center top;
-background-repeat: no-repeat;
-background-color: #000;
-}
-
-@media (max-width: 900px) {
-.hero-full {
-min-height: 100vh;
-background-position: center top;
-background-size: contain;
-background-repeat: no-repeat;
-}
+color: #fff;
+font-family: Arial, sans-serif;
 }
