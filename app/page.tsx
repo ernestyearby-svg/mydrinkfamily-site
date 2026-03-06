@@ -1,117 +1,66 @@
 export default function Page() {
 return (
-<main style={{
-fontFamily: "serif",
-background: "#0b0b0b",
-color: "white",
-minHeight: "100vh"
-}}>
+<main className="landing-page">
+<section className="hero">
+<div className="hero-overlay" />
+<div className="hero-content">
+<div className="hero-left">
+<div className="brand-top">
+<div className="brand-name">MY DRINK FAMILY</div>
+<div className="brand-est">EST. 2011</div>
+</div>
 
-{/* HERO SECTION */}
-<section style={{
-backgroundImage: "url('/hero-mymosa.png')",
-backgroundSize: "cover",
-backgroundPosition: "center",
-padding: "120px 20px",
-textAlign: "left"
-}}>
-<div style={{maxWidth: "1200px", margin: "auto"}}>
-
-<h1 style={{
-fontSize: "64px",
-fontWeight: "bold",
-lineHeight: "1.1",
-marginBottom: "20px"
-}}>
-THE ORIGINAL <br/> MIMOSA IN A CAN
+<h1>
+THE ORIGINAL
+<br />
+<span>MIMOSA</span>
+<br />
+IN A CAN.
 </h1>
 
-<p style={{
-fontSize: "22px",
-marginBottom: "20px"
-}}>
-Real Juice. Real Flavor. Since 2011.
+<p className="subheadline">REAL JUICE. REAL FLAVOR. SINCE 2011.</p>
+
+<p className="body-copy">
+My Drink Family pioneered the ready-to-pour mimosa — crafted with
+real juice, wine, and natural flavors for the perfect brunch
+cocktail experience anywhere.
 </p>
 
-<p style={{
-maxWidth: "500px",
-marginBottom: "40px",
-opacity: "0.9"
-}}>
-Crafted with real juice, wine, and natural flavors for the perfect
-brunch cocktail experience anywhere.
-</p>
+<div className="cta-row">
+<button className="primary-btn">GET NOTIFIED →</button>
+</div>
 
-<button style={{
-background: "#c8a36a",
-border: "none",
-padding: "16px 30px",
-fontSize: "18px",
-cursor: "pointer"
-}}>
-GET NOTIFIED →
-</button>
-
+<div className="launch-note">LAUNCHING NATIONWIDE</div>
+</div>
 </div>
 </section>
 
+<section className="features">
+<div className="feature">REAL JUICE & NATURAL FLAVORS</div>
+<div className="feature">READY TO POUR. READY TO ENJOY.</div>
+<div className="feature">BUILT FOR RETAIL & DISTRIBUTION</div>
+<div className="feature">A DECADE OF QUALITY & TRUST</div>
+</section>
 
-{/* FLAVOR SECTION */}
-
-<section style={{
-padding: "80px 20px",
-textAlign: "center"
-}}>
-<h2 style={{
-fontSize: "40px",
-marginBottom: "40px"
-}}>
-The Flagship Four
-</h2>
-
+<section className="notify">
+<div className="notify-left">
+<h2>BE PART OF THE JOURNEY</h2>
 <p>
-Classic Orange • Pineapple • Tropical • Strawberry
+Join the community as we continue to grow from a legacy brand into a
+national name.
 </p>
+</div>
+
+<div className="notify-right">
+<input type="email" placeholder="Enter your email" />
+<button>GET NOTIFIED</button>
+</div>
 </section>
 
-
-{/* EMAIL SECTION */}
-
-<section style={{
-padding: "80px 20px",
-textAlign: "center",
-background: "#111"
-}}>
-<h2 style={{
-fontSize: "36px",
-marginBottom: "20px"
-}}>
-Be First to Know
-</h2>
-
-<p style={{marginBottom: "30px"}}>
-Join the My Drink Family for launch updates and nationwide releases.
-</p>
-
-<input
-placeholder="Enter your email"
-style={{
-padding: "14px",
-width: "280px",
-marginRight: "10px"
-}}
-/>
-
-<button style={{
-padding: "14px 24px",
-background: "#c8a36a",
-border: "none"
-}}>
-Join
-</button>
-
-</section>
-
+<footer className="footer">
+<div>© 2011 — 2026 My Drink Family • All Rights Reserved</div>
+<div>21+ • PLEASE DRINK RESPONSIBLY</div>
+</footer>
 </main>
-)
+);
 }
