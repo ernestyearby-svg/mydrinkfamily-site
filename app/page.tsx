@@ -1,7 +1,3 @@
 export default function Page() {
-return (
-<main>
-<section className="hero-full" />
-</main>
-);
+return <main>My Drink Family</main>;
 }
