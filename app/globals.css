@@ -1,104 +1,37 @@
 @import "tailwindcss";
 
-html, body {
+html,
+body {
 margin: 0;
 padding: 0;
-background: #050505;
-color: #f5eadb;
-font-family: Georgia, "Times New Roman", serif;
+width: 100%;
+min-height: 100%;
+background: #000;
 }
 
 * {
 box-sizing: border-box;
 }
 
-.landing-page {
-min-height: 100vh;
-background: #050505;
+body {
+overflow-x: hidden;
 }
 
-.hero-image-only {
+.hero-full {
+width: 100%;
 min-height: 100vh;
-background-image: url('/hero-mymosa.png');
+background-image: url("/hero-mymosa.png");
 background-size: cover;
 background-position: center top;
 background-repeat: no-repeat;
-}
-
-.notify {
-display: grid;
-grid-template-columns: 1fr 1fr;
-gap: 32px;
-padding: 56px;
-align-items: center;
-background: #080605;
-border-top: 1px solid rgba(214, 162, 92, 0.15);
-}
-
-.notify h2 {
-margin: 0 0 14px;
-font-size: 2rem;
-font-weight: 400;
-}
-
-.notify p {
-margin: 0;
-font-size: 1.08rem;
-line-height: 1.7;
-}
-
-.notify-right {
-display: flex;
-gap: 14px;
-}
-
-.notify-right input {
-flex: 1;
-min-height: 58px;
-padding: 0 18px;
-background: transparent;
-border: 1px solid rgba(214, 162, 92, 0.3);
-color: #f5eadb;
-}
-
-.notify-right button {
-min-height: 58px;
-padding: 0 24px;
-background: linear-gradient(180deg, #d6a25c 0%, #b77c38 100%);
-border: none;
-color: #120b05;
-letter-spacing: 0.16em;
-cursor: pointer;
-}
-
-.footer {
-display: flex;
-justify-content: space-between;
-gap: 20px;
-padding: 24px 56px 36px;
-font-size: 0.85rem;
-letter-spacing: 0.12em;
-color: #d0bea3;
-border-top: 1px solid rgba(214, 162, 92, 0.15);
+background-color: #000;
 }
 
 @media (max-width: 900px) {
-.hero-image-only {
-min-height: 72vh;
+.hero-full {
+min-height: 100vh;
 background-position: center top;
-}
-
-.notify {
-grid-template-columns: 1fr;
-padding: 36px 20px;
-}
-
-.notify-right {
-flex-direction: column;
-}
-
-.footer {
-flex-direction: column;
-padding: 20px;
+background-size: contain;
+background-repeat: no-repeat;
 }
 }
