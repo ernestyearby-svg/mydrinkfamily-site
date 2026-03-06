@@ -9,7 +9,7 @@ minHeight: "100vh"
 
 {/* HERO SECTION */}
 <section style={{
-backgroundImage: "url('/hero-mymosa.jpg')",
+backgroundImage: "url('/hero-mymosa.png')",
 backgroundSize: "cover",
 backgroundPosition: "center",
 padding: "120px 20px",
