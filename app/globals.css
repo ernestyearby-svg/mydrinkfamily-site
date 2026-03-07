@@ -10,3 +10,41 @@ background: #000;
 * {
 box-sizing: border-box;
 }
+
+body {
+overflow-x: hidden;
+}
+
+.hero-desktop,
+.hero-mobile {
+width: 100%;
+min-height: 100vh;
+background-repeat: no-repeat;
+background-color: #000;
+}
+
+/* desktop */
+.hero-desktop {
+display: block;
+background-image: url("/hero-mymosa.png");
+background-size: contain;
+background-position: center top;
+}
+
+.hero-mobile {
+display: none;
+}
+
+/* mobile */
+@media (max-width: 900px) {
+.hero-desktop {
+display: none;
+}
+
+.hero-mobile {
+display: block;
+background-image: url("/hero-mymosa-mobile.png");
+background-size: contain;
+background-position: center top;
+}
+}
