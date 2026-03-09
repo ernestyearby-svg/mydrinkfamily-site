@@ -13,6 +13,7 @@ box-sizing: border-box;
 
 body {
 overflow-x: hidden;
+background: #000;
 }
 
 .landing-page {
@@ -29,12 +30,4 @@ background: #000;
 display: block;
 width: 100%;
 height: auto;
-background: #000;
-}
-
-@media (max-width: 900px) {
-.hero-image {
-width: 100%;
-height: auto;
-}
 }
