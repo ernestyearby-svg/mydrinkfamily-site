@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Dynasty Works Studio emblem</title>
+  <desc id="desc">A dimensional six-sided studio aperture containing a geometric DWS monogram.</desc>
+  <g fill="none" stroke="#c79943" stroke-linejoin="round">
+    <circle cx="500" cy="500" r="443" stroke-width="8"/><circle cx="500" cy="500" r="392" stroke-width="3" opacity=".72"/>
+    <path d="M500 213 753 359v282L500 787 247 641V359Z" stroke-width="18"/>
+    <path d="M500 213v574M247 359l506 282M753 359 247 641" stroke-width="7" opacity=".82"/>
+    <path d="M500 325 655 414v172l-155 89-155-89V414Z" stroke-width="14"/>
+    <path d="M427 432v145h47c76 0 76-145 0-145Z" stroke-width="16"/>
+    <path d="m518 432 25 145 31-95 30 95 25-145" stroke-width="16" stroke-linecap="round"/>
+    <path d="M688 448c-18-22-55-23-69-2-27 41 80 30 61 92-11 34-61 39-86 9" stroke-width="16" stroke-linecap="round"/>
+    <path d="M280 852h440" stroke-width="5"/><path d="M380 895h240" stroke-width="3" opacity=".7"/>
+  </g>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1100" viewBox="0 0 1600 1100">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#171918"/><stop offset="1" stop-color="#050605"/></linearGradient>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#9a6d2d"/><stop offset=".25" stop-color="#f6dc91"/><stop offset=".55" stop-color="#c69a47"/><stop offset=".8" stop-color="#ffedac"/><stop offset="1" stop-color="#876027"/></linearGradient>
+    <filter id="s"><feDropShadow dx="0" dy="12" stdDeviation="12" flood-opacity=".6"/></filter>
+  </defs>
+  <rect width="1600" height="1100" fill="url(#bg)"/>
+  <text x="90" y="100" fill="#d2ab5f" font-family="Arial" font-size="18" letter-spacing="8">CROWN BRIDGE IDENTITY SYSTEM · KEYSTONE MONUMENT</text>
+  <line x1="90" y1="130" x2="1510" y2="130" stroke="#6f572c"/>
+  <g transform="translate(90 190) scale(.55)" filter="url(#s)" fill="none" stroke="url(#g)" stroke-linejoin="round">
+    <circle cx="500" cy="500" r="445" stroke-width="8"/><circle cx="500" cy="500" r="395" stroke-width="3"/>
+    <path d="M274 324 346 203l154 125 154-125 72 121-62 49H336Z" stroke-width="19"/><path d="M382 372h236l-25 85H407Z" stroke-width="12"/>
+    <path d="M303 503v232M431 472v263M569 472v263M697 503v232" stroke-width="24"/><path d="M253 754h494" stroke-width="23"/>
+    <path d="M263 741c31-197 143-296 237-296s206 99 237 296" stroke-width="17"/>
+    <path d="M471 527c-87-52-163 10-163 100s76 152 163 100" stroke-width="21" stroke-linecap="round"/>
+    <path d="M504 519v218M504 520h78c69 0 69 99 5 108 78 7 74 109-5 109h-78" stroke-width="21" stroke-linecap="round"/>
+    <path d="M244 803h512" stroke-width="5"/><path d="M350 848h300" stroke-width="3"/>
+  </g>
+  <g fill="url(#g)" transform="translate(710 285)">
+    <text x="0" y="120" font-family="Georgia, serif" font-size="126" letter-spacing="17">CROWN</text>
+    <text x="0" y="252" font-family="Georgia, serif" font-size="126" letter-spacing="17">BRIDGE</text>
+    <rect x="4" y="294" width="735" height="2"/>
+    <text x="8" y="344" font-family="Arial" font-size="22" letter-spacing="12">HOLDING COMPANY</text>
+  </g>
+  <line x1="90" y1="830" x2="1510" y2="830" stroke="#6f572c"/>
+  <g fill="#d5b36a" font-family="Arial" font-size="16" letter-spacing="4">
+    <text x="90" y="890">THE SYMBOL</text><text x="460" y="890">THE STRUCTURE</text><text x="865" y="890">THE STANDARD</text>
+  </g>
+  <g fill="#b8b2a7" font-family="Georgia, serif" font-size="25">
+    <text x="90" y="935">Crown + keystone</text><text x="460" y="935">Four foundation pillars</text><text x="865" y="935">Architectural. Enduring. Ownable.</text>
+    <text x="90" y="975">Bridge arch + CB</text><text x="460" y="975">One integrated institution</text><text x="865" y="975">Built for digital and physical use.</text>
+  </g>
+</svg>

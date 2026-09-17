@@ -1,0 +1,3 @@
+/hub    https://crownbridgecommandcenter.netlify.app  301!
+/hub/*  https://crownbridgecommandcenter.netlify.app  301!
+/*      /index.html                                   200

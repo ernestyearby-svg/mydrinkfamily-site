@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Crown Bridge emblem</title>
+  <desc id="desc">A crowned architectural keystone, bridge arch, CB monogram, and four structural pillars.</desc>
+  <g fill="none" stroke="#c79a45" stroke-linejoin="round">
+    <circle cx="500" cy="500" r="445" stroke-width="8"/>
+    <circle cx="500" cy="500" r="395" stroke-width="3" opacity=".72"/>
+    <path d="M274 324 346 203l154 125 154-125 72 121-62 49H336Z" stroke-width="19"/>
+    <path d="M382 372h236l-25 85H407Z" stroke-width="12"/>
+    <path d="M303 503v232M431 472v263M569 472v263M697 503v232" stroke-width="24"/>
+    <path d="M253 754h494" stroke-width="23"/>
+    <path d="M263 741c31-197 143-296 237-296s206 99 237 296" stroke-width="17"/>
+    <path d="M471 527c-87-52-163 10-163 100s76 152 163 100" stroke-width="21" stroke-linecap="round"/>
+    <path d="M504 519v218M504 520h78c69 0 69 99 5 108 78 7 74 109-5 109h-78" stroke-width="21" stroke-linecap="round"/>
+    <path d="M244 803h512" stroke-width="5"/>
+    <path d="M350 848h300" stroke-width="3" opacity=".68"/>
+  </g>
+</svg>

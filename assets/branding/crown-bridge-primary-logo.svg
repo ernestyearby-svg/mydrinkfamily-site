@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="720" viewBox="0 0 1800 720" role="img" aria-labelledby="title desc">
+  <title id="title">Crown Bridge primary identity</title>
+  <desc id="desc">A monumental gold Crown Bridge emblem with an architectural wordmark on an obsidian field.</desc>
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8d6429"/>
+      <stop offset="0.28" stop-color="#f4d98b"/>
+      <stop offset="0.55" stop-color="#c79a45"/>
+      <stop offset="0.78" stop-color="#fff0b4"/>
+      <stop offset="1" stop-color="#9b6d2d"/>
+    </linearGradient>
+    <radialGradient id="field" cx="50%" cy="42%" r="80%">
+      <stop offset="0" stop-color="#151716"/>
+      <stop offset="1" stop-color="#070807"/>
+    </radialGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="9" result="b"/>
+      <feOffset dy="8" result="o"/>
+      <feColorMatrix in="o" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .55 0"/>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1800" height="720" fill="url(#field)"/>
+  <g transform="translate(90 72)" filter="url(#shadow)" fill="none" stroke="url(#gold)">
+    <circle cx="288" cy="288" r="258" stroke-width="4"/>
+    <circle cx="288" cy="288" r="229" stroke-width="1.5" opacity=".7"/>
+    <!-- Crowned keystone -->
+    <path d="M158 186 200 116l88 72 88-72 42 70-36 28H194Z" stroke-width="11" stroke-linejoin="round"/>
+    <path d="M220 214h136l-14 49H234Z" stroke-width="7"/>
+    <!-- Four pillars -->
+    <path d="M174 290v134M248 272v152M328 272v152M402 290v134" stroke-width="14"/>
+    <path d="M145 435h286" stroke-width="13" stroke-linecap="square"/>
+    <!-- Bridge arch -->
+    <path d="M151 427c18-114 83-171 137-171s119 57 137 171" stroke-width="10"/>
+    <!-- Monumental CB monogram -->
+    <path d="M271 304c-50-30-94 6-94 58s44 88 94 58" stroke-width="12" stroke-linecap="round"/>
+    <path d="M290 299v126M290 300h45c40 0 40 57 3 62 45 4 43 63-3 63h-45" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M140 463h296" stroke-width="3"/>
+    <path d="M201 489h174" stroke-width="2" opacity=".65"/>
+  </g>
+  <g fill="url(#gold)">
+    <text x="720" y="286" font-family="Georgia, 'Times New Roman', serif" font-size="144" letter-spacing="18">CROWN</text>
+    <text x="720" y="442" font-family="Georgia, 'Times New Roman', serif" font-size="144" letter-spacing="18">BRIDGE</text>
+    <rect x="725" y="490" width="845" height="2" opacity=".75"/>
+    <text x="729" y="545" font-family="Arial, Helvetica, sans-serif" font-size="24" letter-spacing="12">HOLDING COMPANY</text>
+    <text x="729" y="594" font-family="Arial, Helvetica, sans-serif" font-size="17" letter-spacing="5" opacity=".78">VISIONARY  •  HISTORIAN  •  OPERATOR  •  AMPLIFIER</text>
+  </g>
+</svg>

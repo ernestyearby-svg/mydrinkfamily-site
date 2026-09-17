@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1100" viewBox="0 0 1600 1100">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#171818"/><stop offset="1" stop-color="#050605"/></linearGradient>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#956a2d"/><stop offset=".25" stop-color="#f5da8d"/><stop offset=".55" stop-color="#c79943"/><stop offset=".8" stop-color="#ffedac"/><stop offset="1" stop-color="#876027"/></linearGradient>
+  </defs>
+  <rect width="1600" height="1100" fill="url(#bg)"/>
+  <text x="90" y="100" fill="#d2ab5f" font-family="Arial" font-size="18" letter-spacing="8">DYNASTY WORKS STUDIO · DIMENSIONAL APERTURE</text>
+  <line x1="90" y1="130" x2="1510" y2="130" stroke="#6f572c"/>
+  <g transform="translate(100 185) scale(.55)" fill="none" stroke="url(#g)" stroke-linejoin="round">
+    <circle cx="500" cy="500" r="443" stroke-width="8"/><circle cx="500" cy="500" r="392" stroke-width="3"/>
+    <path d="M500 213 753 359v282L500 787 247 641V359Z" stroke-width="18"/><path d="M500 213v574M247 359l506 282M753 359 247 641" stroke-width="7"/>
+    <path d="M500 325 655 414v172l-155 89-155-89V414Z" stroke-width="14"/>
+    <path d="M427 432v145h47c76 0 76-145 0-145Z" stroke-width="16"/><path d="m518 432 25 145 31-95 30 95 25-145" stroke-width="16"/>
+    <path d="M688 448c-18-22-55-23-69-2-27 41 80 30 61 92-11 34-61 39-86 9" stroke-width="16"/>
+  </g>
+  <g fill="url(#g)" transform="translate(700 280)">
+    <text x="0" y="110" font-family="Georgia, serif" font-size="104" letter-spacing="9">DYNASTY</text>
+    <text x="0" y="225" font-family="Georgia, serif" font-size="104" letter-spacing="9">WORKS</text>
+    <text x="0" y="340" font-family="Georgia, serif" font-size="104" letter-spacing="20">STUDIO</text>
+    <rect x="3" y="383" width="760" height="2"/>
+    <text x="7" y="435" font-family="Arial" font-size="20" letter-spacing="7">CREATIVE PRODUCTION &amp; IP MANAGEMENT</text>
+  </g>
+  <line x1="90" y1="830" x2="1510" y2="830" stroke="#6f572c"/>
+  <g fill="#d5b36a" font-family="Arial" font-size="16" letter-spacing="4"><text x="90" y="890">THE SYMBOL</text><text x="495" y="890">THE FUNCTION</text><text x="930" y="890">THE STANDARD</text></g>
+  <g fill="#b8b2a7" font-family="Georgia, serif" font-size="25">
+    <text x="90" y="935">Aperture + prism</text><text x="495" y="935">Ideas shaped into assets</text><text x="930" y="935">Disciplined. Dimensional. Precise.</text>
+    <text x="90" y="975">Integrated DWS monogram</text><text x="495" y="975">Creative systems in motion</text><text x="930" y="975">Built for studio and portfolio use.</text>
+  </g>
+</svg>
